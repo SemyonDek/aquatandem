@@ -1,0 +1,165 @@
+#category-main-block {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.category_block_name {
+    width: 100%;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add-category-block {
+    margin-bottom: 20px;
+}
+
+#addCategoryForm {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.add-category-input {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.add_category_img {
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#block-table-category {
+    padding-left: 10px;
+}
+
+#block-table-category table {
+    width: 50%;
+    text-align: center;
+}
+
+#block-table-category table,
+#block-table-category tr,
+#block-table-category td {
+    border: 2px solid #d8d8d8;
+    border-collapse: collapse;
+}
+
+#block-table-category td {
+    padding: 0 10px;
+}
+
+.number {
+    width: 10%;
+}
+
+.name {
+    width: 40%;
+
+}
+
+tbody .name {
+    text-align: left;
+}
+
+.upd, .del {
+    width: 25%;
+}
+
+.upd a {
+    color: #000;
+}
+
+tbody .del {
+    cursor: pointer;
+}
+
+
+
+#category-info {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100000;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#category-info:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#category-info>a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: auto;
+}
+
+#modal-block-category {
+    width: 400px;
+    max-height: 560px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 0 0 0;
+}
+
+.title-modal-block-category {
+    margin: 0;
+    font-family: Arimo;
+    font-size: 25px;
+    padding: 0px 35px;
+    text-align: center;
+}
+
+
+.upd-category-block {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0px 35px;
+}
+
+
+#updCategoryForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.upd-category-input {
+    width: 100%;
+    height: 34px;
+    margin-bottom: 20px;
+}
+
+.upd_category_img {
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+#list-product-block {
+    width: 100%;
+    margin-right: 0;
+}
+.item-product {
+    width: 25%;
+    position: relative;
+}
+.del-item-favourites_button {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+.del-item-favourites {
+    max-width: 100%;
+    max-height: 100%;
+}

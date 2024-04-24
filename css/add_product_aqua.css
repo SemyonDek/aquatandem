@@ -1,0 +1,92 @@
+#aqua-main-block {
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.aqua_block_name {
+    width: 100%;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#addAquaProdForm {
+    width: 50%;
+}
+
+.block-add-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.add_img-title {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#file_photo {
+    width: 100%;
+    margin-right: 20px;
+}
+
+#file_photo::file-selector-button {
+    margin-right: 20px;
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.block-input {
+    padding-left: 50px;
+}
+
+.input_aqua {
+    width: 70%;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.textarea_aqua {
+    width: 70%;
+    height: 100px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.button_aqua {
+    width: 120px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.back_aqua {
+    width: 120px;
+    text-align: center;
+    padding: 5.5px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+}

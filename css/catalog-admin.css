@@ -1,0 +1,32 @@
+.item-product {
+    max-height: 350px;
+}
+.text-item-product-block {
+    height: 129px;
+}
+.button-prod-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.button-prod {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    background-color: #058ed6;
+}
+.add_prod {
+    width: 17%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    background-color: #058ed6;
+    margin-bottom: 20px;
+}

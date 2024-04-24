@@ -1,0 +1,234 @@
+#breadcrumbs_block {
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 6px 10px;
+    display: flex;
+    font-size: 12px;
+}
+
+.crumb {
+    color: #068ed5;
+    line-height: 1.4;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.active_crumb {
+    pointer-events: none;
+    color: #b1b1b1;
+    text-decoration: none;
+}
+
+#breadcrumbs_block>span {
+    margin-right: 10px;
+    color: #b1b1b1;
+}
+
+#catalog_block {
+    padding: 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.catalog_name {
+    width: 100%;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#sort_block {
+    width: 100%;
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 14px 10px 10px 20px;
+}
+
+.select_block {
+    position: relative;
+    width: 182px;
+    height: 30px;
+    margin-right: 19px;
+    margin-bottom: 16px;
+}
+
+.selected_form {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 35px;
+    cursor: pointer;
+    overflow: hidden;
+    appearance: none;
+}
+
+.button_select {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.select_img {
+    width: 80%;
+    height: auto;
+    pointer-events: none;
+}
+
+#content_catalog_block {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#list-product-block {
+    width: 79.1%;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-product {
+    width: 33.33333333%;
+    border-color: #d8d8d8;
+    background-color: #f9f9f7;
+    border-width: 0 1px 1px 0px;
+    border-style: solid;
+    max-height: 327px;
+}
+
+.img-item-product-block {
+    width: 100%;
+    height: 206px;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.img-item-product {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.text-item-product-block {
+    height: 106px;
+    padding: 0 17px;
+}
+
+.name-item-prod {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    height: 24.6px;
+    overflow: hidden;
+    color: #068ed5;
+    margin-bottom: 5px;
+}
+
+.text-item-product-block>a:hover>.name-item-prod {
+    color: #ff8001;
+    ;
+}
+
+.desc-item-prod {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    color: #686868;
+    margin-bottom: 8px;
+}
+
+.price-item-prod {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+}
+
+.price-value-item-prod {
+    font-size: 14px;
+    float: right;
+}
+
+.rub-item-prod {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#filter-block {
+    width: 19.5%;
+    background-color: #f0f0f0;
+}
+
+.block-filter-input-number {
+    width: 100%;
+    /* padding: 14px 19px 25px 21px; */
+    padding: 14px 19px 10px 21px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-filter {
+    margin: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.block-input-filter {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.input-filter {
+    width: 90px;
+    height: 32px;
+    border-color: #d8d8d8;
+    color: #000;
+    border: 1px solid;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.filter_button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    background-color: #058ed6;
+}
+
+.input-filter::-webkit-outer-spin-button,
+.input-filter::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

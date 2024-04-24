@@ -1,0 +1,23 @@
+#category-block {
+    background-color: #182b41;
+    width: 20%;
+    padding-top: 17px;
+    padding-bottom: 34px;
+    z-index: 2;
+}
+.line-category {
+    width: 100%;
+    padding: 0 26px;
+    min-height: 49px;
+}
+.line-category:hover {
+    background-color: #068ed5;
+}
+.active-line-category {
+    background-color: #068ed5;
+}
+.category-link {
+    position: relative;
+    padding: 16.5px 6px;
+    color: #FFFFFF;
+}

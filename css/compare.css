@@ -1,0 +1,236 @@
+#breadcrumbs_block {
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 6px 10px;
+    display: flex;
+    font-size: 12px;
+}
+
+.crumb {
+    color: #068ed5;
+    line-height: 1.4;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.active_crumb {
+    pointer-events: none;
+    color: #b1b1b1;
+    text-decoration: none;
+}
+
+#breadcrumbs_block>span {
+    margin-right: 10px;
+    color: #b1b1b1;
+}
+
+#main-block-compare {
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.title_compare {
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+#table-compare {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#left-block-compare {
+    width: 254px;
+}
+
+.top-block {
+    width: 100%;
+    height: 425px;
+}
+
+#left-block-compare .top-block {
+    position: relative;
+}
+
+.del-compare {
+    position: absolute;
+    bottom: 40px;
+    right: 15%;
+    width: 70%;
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.bottom-block {
+    height: 287px;
+}
+
+.list-characteristic {
+    border-top: 1px solid #e2e5e8;
+    font-size: 12px;
+    color: #475057;
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-block-ul {
+    font-weight: bold;
+}
+
+.item-list-characteristic {
+    padding: 6px 8px;
+    border-bottom: 1px solid #e2e5e8;
+    border-right: 1px solid #e2e5e8;
+}
+
+#block-scrol {
+    position: relative;
+    width: 920px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 730px;
+}
+
+#block-scrol::-webkit-scrollbar {
+    width: 0;
+}
+
+#list-product-compare {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 0;
+    left: 0;
+}
+
+.item-block-compare {
+    width: 260px;
+}
+
+.item-block-compare>.top-block {
+    padding: 0 5px;
+}
+
+.compare-photo-block {
+    height: 176px;
+    background-color: #fff;
+    padding: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-item-compare {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.del-item-compare_button {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.del-item-compare {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.name-item-compare {
+    padding: 0 17px;
+    text-align: center;
+    color: #068ed5;
+    line-height: 1.4;
+    font-size: 14px;
+    max-height: 38px;
+    overflow: hidden;
+}
+
+.min-desc-item-compare {
+    padding: 0 17px;
+    margin-bottom: 15px;
+    color: #686868;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    max-height: 54px;
+    overflow: hidden;
+}
+
+.price-item-prod {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 21px;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.price-value-item-prod {
+    font-size: 14px;
+    float: right;
+}
+
+.rub-item-prod {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.buy-button-basket {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add_basket_button {
+    width: 92px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 23px;
+    border-color: #aa0c27;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #c81538 0%, #bc112e 100%);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.add_basket_button:active {
+    background: linear-gradient(to bottom, #c81538 0%, #aa0c27 100%);
+}
+
+.add-button-izb {
+    text-align: center;
+}
+
+.add_izb_button {
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+}

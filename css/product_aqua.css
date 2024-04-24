@@ -1,0 +1,94 @@
+#aqua-main-block {
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.aqua_block_name {
+    width: 100%;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.add_aqua {
+    width: 10%;
+    text-align: center;
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#accessories_prod {
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+
+h1.title_index {
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 34px;
+    margin-bottom: 28px;
+    padding-top: 9px;
+}
+
+.accessories_item {
+    display: inline-block;
+    width: 30%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #686868;
+    padding: 14px 30px;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.img_accessories_item {
+    max-width: 122px;
+    max-height: 122px;
+}
+
+.title_accessories_item {
+    color: #000;
+}
+
+.upd_aqua {
+    width: 50%;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.del_aqua {
+    width: 50%;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 15px;
+    color: #fff;
+    background: #068ed5;
+    border-color: #068ed5;
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arimo;
+    font-size: 14px;
+    line-height: 1.5;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+input[type="text"], input[type="number"], input[type="password"], textarea {
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    box-shadow: none;
+
+}
+input[type="text"]:focus, input[type="number"]:focus,
+input[type="password"]:focus, textarea:focus {
+    outline: none;
+    
+}
+.number input[type="number"]::-webkit-outer-spin-button,
+.number input[type="number"]::-webkit-inner-spin-button {
+	border-radius: 10px;
+}
+#page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+#main-block {
+    width: 80%;
+    background-color: #f9f9f7;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    /* padding-bottom: 40px; */
+}
+#header-block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+#logo-block {
+    display: flex;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    justify-content: center;
+}
+#logo-block img {
+    width: 250px;
+}
+#menu-block {
+    background-color: #058ed6;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#linck-catalog {
+    margin-left: 100px;
+    margin-right: 130px;
+    text-align: center;
+    width: 10%;
+}
+.catalog-link {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#search-form {
+    position: relative;
+    width: 40%;
+}
+#search {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 32px 5px 15px;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+#search:focus {
+    outline: none;
+}
+#search-button {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    fill: #058ed6;
+}
+#basket-link {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+#basket-block {
+    width: 250px;
+    height: 70px;
+    background-color: #c21333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+#basket-block:hover {
+    background-color: #cc1039;
+}
+#basket-block > img {
+    width: 40px;
+    margin-right: 10px;
+}
+.basket-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 3px;
+}
+#modal-basket {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100000;
+    background: rgba(0,0,0,0.5);
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    opacity: 0;
+    pointer-events: none;
+}
+#modal-basket:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+#modal-basket > a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: auto;
+}
+#modal-block-basket {
+    width: 800px;
+    max-height: 560px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 0 0 0;
+}
+.title-basket {
+    margin: 0;
+    font-family: Arimo;
+    font-size: 25px;
+    padding: 0px 35px;
+}
+#basket-form {
+    overflow-y: scroll;
+    max-height: 250px;
+    margin: 20px;
+}
+#basket-form > table {
+    width: 99%;
+}
+#basket-form > table tr {
+    height: 80px;
+    border-bottom: 10px solid #FFFFFF;
+}
+.del-prod-basket {
+    width: 5%;
+}
+.del-prod-basket button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.img-basket {
+    width: 10%;
+    height: 62px;
+    margin-top: 10px;
+}
+.img-basket img {
+    height: 100%;
+}
+.name-prod-basket {
+    width: 38%;
+    text-align: center;
+}
+.name-prod-basket a {
+    color: #068ed5;
+    transition: 0.2s;
+}
+.name-prod-basket a:hover {
+    color: #ff8001;
+}
+.name-prod-basket .color-prod-bassket {
+    color: #80858a;
+}
+.value-prod-basket {
+    width: 10%;
+    text-align: center;
+}
+.value-prod-basket input {
+    width: 63px;
+    height: 30px;
+    padding: 0px 5px;
+    text-align: center;
+}
+.amount-price-basket {
+    width: 15%;
+    font-size: 16px;
+    text-align: right;
+}
+span.rub {
+    font-size: 27px;
+    font-weight: bold;
+}
+#price-line-basket {
+    padding: 17px 46px 17px 25px;
+    text-align: right;
+    font-size: 27px;
+}
+.text-amount-price-basket {
+    color: #80858a;
+    font-size: 12px;
+}
+#basket-button-block {
+    border-top-color: #d8d8d8;
+    background-color: #f7f4ee;
+    padding: 17px 46px 17px 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#basket-button-block a {
+    position: relative;
+}
+.left-img {
+    position: absolute;
+    left: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.left-img img {
+    width: 18px;
+    /* height: 11px; */
+}
+.back-basket {
+    width: 180px;
+    height: 33px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    background: #068ed5 !important;
+    cursor: pointer;
+}
+.order-basket {
+    margin-right: 10px;
+    width: 150px;
+    height: 33px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-color: #aa0c27;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    background: #c81538;
+    background: -moz-linear-gradient(top, #c81538 0%, #bc112e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c81538), color-stop(100%,#bc112e));
+    background: -webkit-linear-gradient(top, #c81538 0%,#bc112e 100%);
+    background: -o-linear-gradient(top, #c81538 0%,#bc112e 100%);
+    background: -ms-linear-gradient(top, #c81538 0%,#bc112e 100%);
+    background: linear-gradient(to bottom, #c81538 0%,#bc112e 100%);
+}
+.close-basket {
+    cursor: pointer;
+    position: absolute;
+    top: -25px;
+    right: -30px;
+    width: 25px;
+    opacity: 0.8;
+}
