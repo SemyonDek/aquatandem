@@ -30,7 +30,6 @@ if (isset($_GET['search']) && $_GET['search'] !== '') {
             ?>
             <div id="catalog_block">
                 <h1 class="catalog_name"><?= $searchName ?></h1>
-                <!-- <a class="add_prod" href="add_prod.php">Добавить товар</a> -->
                 <div id="sort_block">
                     <div class="select_block">
                         <select name="sort_select" id="sort_select" class="selected_form" onchange="sortProd()">
@@ -50,40 +49,6 @@ if (isset($_GET['search']) && $_GET['search'] !== '') {
                         <?php
                         addListProdAdmin($ProductTable, $PhotosProdList);
                         ?>
-
-                        <!-- <div class="item-product">
-
-                            <div class="img-item-product-block">
-                                <img src="../img/product/1.png" alt="" class="img-item-product">
-                            </div>
-
-                            <div class="text-item-product-block">
-
-                                <h3 class="name-item-prod">
-                                    Аквариум настенный 1000
-                                </h3>
-
-                                <p class="desc-item-prod">
-                                    Уникальный настенный аквариум-картина.
-                                </p>
-                                <p class="price-item-prod">
-                                    Цена:
-                                    <span class="price-value-item-prod">
-                                        60000
-                                        <span class="rub-item-prod">
-                                            руб
-                                        </span>
-                                    </span>
-                                </p>
-                                <div class="button-prod-block">
-                                    <a href="upd_prod.php">
-                                        <input class="button-prod" type="button" value="Изменить">
-                                    </a>
-                                    <input class="button-prod" type="button" value="Удалить">
-                                </div>
-
-                            </div>
-                        </div> -->
                     </div>
                     <div id="filter-block">
                         <form action="" id="filter_form" method="get">

@@ -98,50 +98,6 @@
                                 <?php
                                 addTableBassketOrder($BasketTable, $TableProdAll, $PhotosProdList);
                                 ?>
-                                <!-- <tr>
-                                    <td class="img-orders-basket"><img src="img/product/1.png" alt=""></td>
-                                    <td class="name-orders-basket">
-                                        <a href="">Аквариум настенный 1000</a>
-                                        <span class="color-order-basket">Черный</span>
-                                    </td>
-                                    <td class="value-orders-basket">
-                                        12 шт.
-                                    </td>
-                                    <td class="amount-orders-basket">1000 руб</span> </td>
-                                </tr>
-                                <tr>
-                                    <td class="img-orders-basket"><img src="img/product/1.png" alt=""></td>
-                                    <td class="name-orders-basket">
-                                        <a href="">Аквариум настенный 1000</a>
-                                        <span class="color-order-basket">Черный</span>
-                                    </td>
-                                    <td class="value-orders-basket">
-                                        12 шт.
-                                    </td>
-                                    <td class="amount-orders-basket">1000 руб</span> </td>
-                                </tr>
-                                <tr>
-                                    <td class="img-orders-basket"><img src="img/product/1.png" alt=""></td>
-                                    <td class="name-orders-basket">
-                                        <a href="">Аквариум настенный 1000</a>
-                                        <span class="color-order-basket">Черный</span>
-                                    </td>
-                                    <td class="value-orders-basket">
-                                        12 шт.
-                                    </td>
-                                    <td class="amount-orders-basket">1000 руб</span> </td>
-                                </tr>
-                                <tr>
-                                    <td class="img-orders-basket"><img src="img/product/1.png" alt=""></td>
-                                    <td class="name-orders-basket">
-                                        <a href="">Аквариум настенный 1000</a>
-                                        <span class="color-order-basket">Черный</span>
-                                    </td>
-                                    <td class="value-orders-basket">
-                                        12 шт.
-                                    </td>
-                                    <td class="amount-orders-basket">1000 руб</span> </td>
-                                </tr> -->
                             </tbody>
                         </table>
                     </div>

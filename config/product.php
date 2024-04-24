@@ -11,14 +11,6 @@ YSIZE BETWEEN $min_prod_mass_ysize AND $max_prod_mass_ysize AND
 ZSIZE BETWEEN $min_prod_mass_zsize AND $max_prod_mass_zsize 
 $searchStr $idCatProd $idProducer $sort");
 
-// echo "SELECT * FROM `products` WHERE 
-// PRICE BETWEEN $min_prod_mass AND $max_prod_mass AND 
-// VOLUME BETWEEN $min_prod_mass_value AND $max_prod_mass_value AND 
-// XSIZE BETWEEN $min_prod_mass_xsize AND $max_prod_mass_xsize AND 
-// YSIZE BETWEEN $min_prod_mass_ysize AND $max_prod_mass_ysize AND 
-// ZSIZE BETWEEN $min_prod_mass_zsize AND $max_prod_mass_zsize 
-// $searchStr $idCatProd $idProducer $sort";
-
 $ProductTable = mysqli_fetch_all($ProductTable, MYSQLI_ASSOC);
 $PhotosProdList = mysqli_query($ConnectDatabase, "SELECT * FROM `products_img`");
 $PhotosProdList = mysqli_fetch_all($PhotosProdList, MYSQLI_ASSOC);

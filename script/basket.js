@@ -13,7 +13,6 @@ function addBasket(id) {
   xhr.open("POST", url);
   xhr.send(formData);
   xhr.onload = () => {
-    // alert("Товар добавлен в корзину");
     document.getElementById("basket-block").innerHTML =
       xhr.response.getElementById("basket-block").innerHTML;
     document.getElementById("basket-form").innerHTML =
@@ -35,7 +34,6 @@ function delBasket(id) {
   xhr.open("POST", url);
   xhr.send(formData);
   xhr.onload = () => {
-    // alert("Товар удален из корзины");
     document.getElementById("basket-block").innerHTML =
       xhr.response.getElementById("basket-block").innerHTML;
     document.getElementById("basket-form").innerHTML =

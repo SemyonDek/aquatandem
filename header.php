@@ -9,12 +9,6 @@ if (isset($order) && (!isset($_SESSION['basket']) || $_SESSION['basket'] == []))
 if (isset($_SESSION['accountName']) && $_SESSION['accountName'] == 'admin') {
     header('Location: admin');
 }
-// unset($_SESSION['basket']);
-// unset($_SESSION['basketSum']);
-// unset($_SESSION['countBasket']);
-
-// print_r($_SESSION['basket']);
-
 require_once('config/basket.php');
 ?>
 
@@ -36,54 +30,6 @@ require_once('config/basket.php');
                         addTableBassket($BasketTable, $TableProdAll, $PhotosProdList);
                     }
                     ?>
-                    <!-- <tr>
-                        <td class="del-prod-basket"><button>x</button></td>
-                        <td class="img-basket"><img src="img/product/1.png" alt=""></td>
-                        <td class="name-prod-basket">
-                            <a href="">Аквариум настенный 1000</a>
-                            <span class="color-prod-bassket">Черный</span>
-                        </td>
-                        <td class="value-prod-basket">
-                            <input type="number" value="1" min="1" max="20" onkeypress="return false">
-                        </td>
-                        <td class="amount-price-basket">1000 <span class="rub">руб</span> </td>
-                    </tr>
-                    <tr>
-                        <td class="del-prod-basket"><button>x</button></td>
-                        <td class="img-basket"><img src="img/product/1.png" alt=""></td>
-                        <td class="name-prod-basket">
-                            <a href="">Аквариум настенный 1000</a>
-                            <span class="color-prod-bassket">Черный</span>
-                        </td>
-                        <td class="value-prod-basket">
-                            <input type="number" value="1" min="1" max="20" onkeypress="return false">
-                        </td>
-                        <td class="amount-price-basket">1000 <span class="rub">руб</span> </td>
-                    </tr>
-                    <tr>
-                        <td class="del-prod-basket"><button>x</button></td>
-                        <td class="img-basket"><img src="img/product/1.png" alt=""></td>
-                        <td class="name-prod-basket">
-                            <a href="">Аквариум настенный 1000</a>
-                            <span class="color-prod-bassket">Черный</span>
-                        </td>
-                        <td class="value-prod-basket">
-                            <input type="number" value="1" min="1" max="20" onkeypress="return false">
-                        </td>
-                        <td class="amount-price-basket">1000 <span class="rub">руб</span> </td>
-                    </tr>
-                    <tr>
-                        <td class="del-prod-basket"><button>x</button></td>
-                        <td class="img-basket"><img src="img/product/1.png" alt=""></td>
-                        <td class="name-prod-basket">
-                            <a href="">Аквариум настенный 1000</a>
-                            <span class="color-prod-bassket">Черный</span>
-                        </td>
-                        <td class="value-prod-basket">
-                            <input type="number" value="1" min="1" max="20" onkeypress="return false">
-                        </td>
-                        <td class="amount-price-basket">1000 <span class="rub">руб</span> </td>
-                    </tr> -->
                 </tbody>
             </table>
         </form>

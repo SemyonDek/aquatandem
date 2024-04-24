@@ -47,29 +47,6 @@ require_once('../config/product_new.php');
                                 <?php
                                 AddSaleSliderAdm($ProdSaleTable, $TableProdAll, $PhotosProdList);
                                 ?>
-
-                                <!-- <div class="prod-slider-item">
-                                    <div class="prod-slider-item-img-block">
-                                        <img src="../img/product/1.png" alt="">
-                                    </div>
-                                    <div class="prod-slider-item-text-block">
-                                        <h3 class="name-item-prod">
-                                            Аквариум настенный 1000
-                                        </h3>
-                                        <p class="desc-item-prod">
-                                            Уникальный настенный аквариум-картина.
-                                        </p>
-                                        <p class="price-item-prod">
-                                            Цена:
-                                            <span class="price-value-item-prod">
-                                                60000
-                                                <span class="rub-item-prod">
-                                                    руб
-                                                </span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                         <div class="button-slider-prod">
@@ -85,32 +62,6 @@ require_once('../config/product_new.php');
                                 <?php
                                 AddNewSliderAdm($ProdNewTable, $TableProdAll, $PhotosProdList)
                                 ?>
-
-                                <!-- <div class="prod-slider-item">
-                                    <div class="prod-slider-item-img-block">
-                                        <img src="../img/product/1.png" alt="">
-                                    </div>
-
-                                    <div class="prod-slider-item-text-block">
-
-                                        <h3 class="name-item-prod">
-                                            Аквариум настенный 1000
-                                        </h3>
-
-                                        <p class="desc-item-prod">
-                                            Уникальный настенный аквариум-картина.
-                                        </p>
-                                        <p class="price-item-prod">
-                                            Цена:
-                                            <span class="price-value-item-prod">
-                                                60000
-                                                <span class="rub-item-prod">
-                                                    руб
-                                                </span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                         <div class="button-slider-prod">
@@ -128,16 +79,6 @@ require_once('../config/product_new.php');
                     <?php
                     addAquaIndexAdmin($AquaTable);
                     ?>
-                    <!-- <div class="accessories_item">
-                        <img src="../img/accessories/aqua_1.png" alt="" class="img_accessories_item">
-                        <h2 class="title_accessories_item">Автокормушки</h2>
-                        <p class="text_accessories_item">
-                            удобное решение автоматизации процесса
-                            кормления обитателей аквариума, особенно
-                            актуально их применение в период вашего
-                            длительного отсутствия;
-                        </p>
-                    </div> -->
                 </div>
 
                 <br>

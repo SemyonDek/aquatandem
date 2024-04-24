@@ -28,18 +28,6 @@ require_once('../config/product_aqua.php');
                     <?php
                     addAquaAdmin($AquaTable);
                     ?>
-                    <!-- <div class="accessories_item">
-                        <img src="../img/accessories/aqua_1.png" alt="" class="img_accessories_item">
-                        <h2 class="title_accessories_item">Автокормушки</h2>
-                        <p class="text_accessories_item">
-                            удобное решение автоматизации процесса
-                            кормления обитателей аквариума, особенно
-                            актуально их применение в период вашего
-                            длительного отсутствия;
-                        </p>
-                        <a href="upd_product_aqua.php" class="upd_aqua">Изменить</a>
-                        <input class="del_aqua" type="button" value="Удалить">
-                    </div> -->
                 </div>
             </div>
         </div>

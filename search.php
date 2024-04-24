@@ -53,32 +53,6 @@ require_once('config/product.php');
                         <?php
                         addListProd($ProductTable, $PhotosProdList);
                         ?>
-                        <!-- <div class="item-product">
-                            <a href="product-card.php">
-                                <div class="img-item-product-block">
-                                    <img src="img/product/1.png" alt="" class="img-item-product">
-                                </div>
-                            </a>
-                            <div class="text-item-product-block">
-                                <a href="product-card.php">
-                                    <h3 class="name-item-prod">
-                                        Аквариум настенный 1000
-                                    </h3>
-                                </a>
-                                <p class="desc-item-prod">
-                                    Уникальный настенный аквариум-картина.
-                                </p>
-                                <p class="price-item-prod">
-                                    Цена:
-                                    <span class="price-value-item-prod">
-                                        60000
-                                        <span class="rub-item-prod">
-                                            руб
-                                        </span>
-                                    </span>
-                                </p>
-                            </div>
-                        </div> -->
                     </div>
                     <div id="filter-block">
                         <form action="" id="filter_form" method="get">

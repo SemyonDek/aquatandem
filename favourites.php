@@ -37,35 +37,6 @@ require_once('config/favourites.php');
                         <?php
                         listFavourit($FavouritTable, $TableProdAll, $PhotosProdList);
                         ?>
-                        <!-- <div class="item-product">
-                            <a href="product-card.php">
-                                <div class="img-item-product-block">
-                                    <img src="img/product/1.png" alt="" class="img-item-product">
-                                </div>
-                            </a>
-                            <div class="text-item-product-block">
-                                <a href="product-card.php">
-                                    <h3 class="name-item-prod">
-                                        Аквариум настенный 1000
-                                    </h3>
-                                </a>
-                                <p class="desc-item-prod">
-                                    Уникальный настенный аквариум-картина.
-                                </p>
-                                <p class="price-item-prod">
-                                    Цена:
-                                    <span class="price-value-item-prod">
-                                        60000
-                                        <span class="rub-item-prod">
-                                            руб
-                                        </span>
-                                    </span>
-                                </p>
-                            </div>
-                            <button class="del-item-favourites_button" type="button">
-                                <img src="img/main/close-cross-in-circular-outlined-interface-button-svgrepo-com.png" alt="" class="del-item-favourites">
-                            </button>
-                        </div> -->
                     </div>
                 </div>
             </div>
